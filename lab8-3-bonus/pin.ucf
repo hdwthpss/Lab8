@@ -1,0 +1,33 @@
+NET "clk" LOC = R10;
+NET "rst_n" LOC = N3;
+
+NET "start_set_hour" LOC = T2;
+NET "lap_set_min" LOC = U1;
+NET "switch" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "switch_count" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "switch" LOC = T1;
+NET "switch_view" LOC = P2;
+NET "switch_count" LOC = P1;
+
+
+NET "display[0]" LOC = U5;
+NET "display[1]" LOC = T7;
+NET "display[2]" LOC = R7;
+NET "display[3]" LOC = V7;
+NET "display[4]" LOC = V4;
+NET "display[5]" LOC = T4;
+NET "display[6]" LOC = T3;
+NET "display[7]" LOC = R5;
+NET "display[8]" LOC = N5;
+NET "display[9]" LOC = R3;
+NET "display[10]" LOC = U7;
+NET "display[11]" LOC = T5;
+NET "display[12]" LOC = V5;
+NET "display[13]" LOC = N4;
+NET "display[14]" LOC = P6;
+
+
+NET "wh_light[3]" LOC = T6;
+NET "wh_light[2]" LOC = V6;
+NET "wh_light[1]" LOC = U8;
+NET "wh_light[0]" LOC = V8;
